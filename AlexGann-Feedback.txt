@@ -1,0 +1,25 @@
+Starting with opening the program and trying the UI.
+
+Interface is nice and clean and has a pleasant color scheme.
+
+Sorting options work, though numerical sorts are reversed (descending instead of ascending).
+
+The groupboxes do not have descriptive names, all of them are named 'Sort'. The center group
+box's button is also labeled 'Sort' and appears to sort by state name alphabetically, but
+gives no other indication that this is intended behavior.
+
+That button and the 'Show' button also show the incorrect state in their popup boxes.
+The 'Show' button also does not show the state name.
+
+The reset button does not appear to do anything.
+
+Looking at the code, the first thing to note is that the listBoxStates_SelectedIndexChanged method
+throws an exception. 'Object reference not set to an instance of an object.'
+
+There are two tooltip objects set up on the form, but the attempt to set their contents programmatically
+appears to have failed.
+
+An OleDbConnection, OleDbDataAdapter, and DataSet are never fully initialized and never used.
+
+Comments are fairly robust on the main form, but the StateInfoForm has none. It would be best to
+include comments in all written code.
