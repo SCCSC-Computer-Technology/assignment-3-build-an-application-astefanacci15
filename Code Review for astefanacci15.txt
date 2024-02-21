@@ -1,0 +1,7 @@
+Code Review for astefanacci15
+
+Upon downloading and running the program it threw an exception (System.InvalidOperationException: 'The 'Microsoft.ACE.OLEDB.12.0' provider is not registered on the local machine.') so I was unable to test the GUI and program while it ran. 
+
+Looking the the forms in design view I found the GUI color palette to be easy to read and aesthetically pleasing. The options for sorting the data were plentiful and gives users a lot of good options for sorting and filtering through the information. 
+
+The code looks clean and is easy to read with no dead code. Overall I think the program and code look simple and clean and are easy to follow.
