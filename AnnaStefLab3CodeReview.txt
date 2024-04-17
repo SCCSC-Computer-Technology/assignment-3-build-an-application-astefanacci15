@@ -1,0 +1,8 @@
+Overall, the GUI looked pretty good.
+Your code was well structured and easy to follow.
+I did have some trouble searching by a specefic state w/
+an exception thrown at this line
+selectedState = listBoxStates.SelectedItem.ToString();
+I would go back and see if you could figure out that issue because
+overall the readability and proficiency is fabulous.
+8/10
